@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+dist/
+build/
+
+backend/runtime/
+backend/input_videos/
+backend/max_magnification_mid_half_*/
+# Model weights
+
+backend/weights/*.pt
+

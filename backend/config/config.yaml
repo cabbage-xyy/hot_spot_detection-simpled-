@@ -1,0 +1,23 @@
+input_path:
+  videoA_path: input_videos/A.mp4
+  videoB_path: input_videos/D.mp4
+
+output_path:
+  output_path: runtime/output_videos/output.mp4
+
+srt_path:
+  srt_path: input_videos/S2.SRT
+
+# 检测后处理路径：相对 backend/ 目录解析。
+# input_path 需要对应 normal.py 中 insert_images_to_video 生成的 report.mp4。
+detection_path:
+  input_path: runtime/output_videos/report.mp4
+  output_path: runtime/output_videos/detection_report.mp4
+  photo_save_path: runtime/output_videos/detection_assets/D.jpg
+
+database:
+  dbname: hot_spot_detection
+  user: xyy
+  password: '123456'
+  host: localhost
+  port: '5432'
